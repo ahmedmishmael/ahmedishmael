@@ -1,4 +1,4 @@
-import About from "@/src/components/about/about";
+import About from "@/src/components/about/About";
 import Head from "next/head";
 
 export default function about({ certificates }) {
