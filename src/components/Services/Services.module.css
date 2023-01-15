@@ -1,0 +1,17 @@
+.videoWrapper {
+  position: relative;
+}
+.videoCaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 767px) {
+  .videoCaption h2 {
+    display: none;
+  }
+  .videoCaption {
+    font-size: xx-small;
+  }
+}

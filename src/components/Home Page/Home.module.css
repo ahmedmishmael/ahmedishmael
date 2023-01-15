@@ -1,0 +1,20 @@
+.banner {
+  background-image: url("../../assets/images/banner.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .bannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.spokenLanguages {
+  display: flex;
+  justify-content: space-between;
+}
+.spokenLanguages svg {
+  font-size: 80px;
+}

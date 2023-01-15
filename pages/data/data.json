@@ -1,0 +1,128 @@
+{
+  "projects": [
+    {
+      "id": "project1",
+      "title": "AClock",
+      "description": "Simple Clock App",
+      "featured": false,
+      "category": "frontend projects",
+      "type": "js",
+      "img": "db/images/aclock.jpeg",
+      "languages": "HTML,CSS and JavaScript",
+      "github": "https://github.com/ahmedmishmael/aclock",
+      "demo": "https://ahmedmishmael.github.io/aclock",
+      "params": "aclock"
+    },
+    {
+      "id": "project2",
+      "title": "ACalculator",
+      "description": "Calculator App",
+      "featured": false,
+      "category": "frontend projects",
+      "type": "js",
+      "img": "db/images/acalculator.jpeg",
+      "languages": "HTML,CSS and JavaScript",
+      "github": "https://github.com/ahmedmishmael/acalculator",
+      "demo": "https://ahmedmishmael.github.io/acalculator/",
+      "params": "acalculator"
+    },
+    {
+      "id": "project3",
+      "title": "ACurrency",
+      "description": "Currency Convertor App",
+      "featured": false,
+      "category": "frontend projects",
+      "type": "js",
+      "img": "db/images/acurrency.jpeg",
+      "languages": "HTML,CSS and JavaScript",
+      "github": "https://github.com/ahmedmishmael/acurrency",
+      "demo": "https://ahmedmishmael.github.io/acurrency/",
+      "params": "acurrency"
+    },
+    {
+      "id": "project4",
+      "title": "Ahmed Ishmael Website",
+      "description": "Portfolio Website",
+      "featured": true,
+      "category": "frontend projects",
+      "type": "react",
+      "img": "db/images/ahmedishmael.jpeg",
+      "languages": "React JS",
+      "github": "https://github.com/ahmedmishmael",
+      "demo": "https://ahmedmishmael.github.io",
+      "params": "ahmedishmaelwebsite"
+    },
+    {
+      "id": "project5",
+      "title": "David Chu China Bistro",
+      "description": "Restaurant Website",
+      "featured": false,
+      "category": "frontend projects",
+      "type": "js",
+      "img": "db/images/davidchuchinabistro.png",
+      "languages": "HTML,CSS, AJAX and JavaScript",
+      "github": "https://github.com/ahmedmishmael/davidchu",
+      "demo": "https://ahmedmishmael.github.io/davidchu/",
+      "params": "davidchu"
+    },
+    {
+      "id": "project6",
+      "title": "Cara",
+      "description": "E-Commerce Website",
+      "featured": true,
+      "category": "frontend projects",
+      "type": "js",
+      "img": "db/images/cara.png",
+      "languages": "HTML,CSS and JavaScript",
+      "github": "https://github.com/ahmedmishmael/cara",
+      "demo": "https://ahmedmishmael.github.io/cara/",
+      "params": "cara"
+    },
+    {
+      "id": "project7",
+      "title": "LUSION",
+      "description": "E-Commerce Website",
+      "featured": true,
+      "category": "frontend projects",
+      "type": "react",
+      "img": "db/images/lusion.png",
+      "languages": "React JS",
+      "github": "https://github.com/ahmedmishmael/lusion",
+      "demo": "https://ahmedmishmael.github.io/lusion/",
+      "params": "lusion"
+    },
+    {
+      "id": "project8",
+      "title": "ESKIL",
+      "description": "Furniture Store",
+      "featured": true,
+      "category": "frontend projects",
+      "type": "react",
+      "img": "db/images/eskil.jpeg",
+      "languages": "React JS",
+      "github": "https://github.com/ahmedmishmael/eskil",
+      "demo": "https://ahmedmishmael.github.io/eskil/",
+      "params": "eskil"
+    },
+    {
+      "id": "project9",
+      "title": "Continental Hurghada",
+      "description": "Hotel Website",
+      "featured": true,
+      "category": "frontend projects",
+      "type": "react",
+      "img": "db/images/continental.jpeg",
+      "languages": "React - Next JS",
+      "github": "https://github.com/ahmedmishmael/Continental-Hotel-Hurghada",
+      "demo": "https://continental-hurghada.vercel.app/"
+    }
+  ],
+  "certificates": [
+    { "url": "documents/1.jpg" },
+    { "url": "documents/2.jpg" },
+    { "url": "documents/3.jpg" },
+    { "url": "documents/4.jpg" },
+    { "url": "documents/5.jpg" },
+    { "url": "documents/6.jpg" }
+  ]
+}

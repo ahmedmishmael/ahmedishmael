@@ -1,0 +1,141 @@
+body {
+  background-color: #100028 !important;
+  color: #adadad !important;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: white !important;
+  font-family: "Play", sans-serif !important;
+}
+h5,
+h6 {
+  color: white !important;
+  font-family: "Josefin Sans", sans-serif !important;
+}
+input {
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid gray;
+  outline: none;
+  color: #adadad;
+}
+input:focus {
+  border: 1px solid white;
+}
+textarea {
+  background-color: transparent;
+  border: 1px solid gray;
+  outline: none;
+  color: #adadad;
+}
+textarea:focus {
+  border: 1px solid white;
+}
+button {
+  background-color: #00bfe7;
+  color: white;
+  padding: 15px;
+  border: none;
+}
+/* animation button */
+.animation-button {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  padding: 14px 32px 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.animation-button::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 30px;
+  width: 30px;
+  border-left: 2px solid #00bfe7;
+  border-top: 2px solid #00bfe7;
+  content: "";
+  z-index: -1;
+  transition: all, 0.7s;
+}
+.animation-button::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  border-right: 2px solid #00bfe7;
+  border-bottom: 2px solid #00bfe7;
+  content: "";
+  z-index: -1;
+  transition: all, 0.7s;
+}
+.animation-button:hover::before,
+.animation-button:hover::after {
+  height: 100%;
+  width: 100%;
+  transition: all, 0.7s;
+}
+/* sections titles */
+.section-title {
+  position: relative;
+}
+.section-title h2::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 70px;
+  background: #00bfe7;
+  content: "";
+}
+.section-title.title-center h2::after {
+  right: 0;
+  margin: 0 auto;
+}
+/* service icons */
+.service-icon {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.service-icon::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #00bfe7;
+  content: "";
+  transition: all, 0.5s;
+}
+.service:hover .service-icon::after {
+  transform: rotate(45deg);
+  transition: all, 0.5s;
+}
+/* circle-icons */
+.circle-icon {
+  border: 1px solid #00bfe7;
+  width: 67px;
+  height: 67px;
+  border-radius: 100%;
+}
+.circle-icon:first-child {
+  color: white;
+}
